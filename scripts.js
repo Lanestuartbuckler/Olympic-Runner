@@ -1,6 +1,5 @@
 const runner = document.querySelector("[data-runner]");
 const hurdle = document.querySelector("[data-hurdle]")
-const StartScreenElement = document.querySelector("[data-startscreen]")
 
 function jump() {
     if (runner.classList != "jump") {
